@@ -210,7 +210,6 @@ ul:hover{
 }
 @media screen and (max-width: 576px) {
     *{
-        background-color: red;
         margin: 0;
         padding: 0;
     }
@@ -225,6 +224,7 @@ ul:hover{
         border-radius: 20px;
         width: auto;
         height: auto;
+        margin-left: 0;
     }
     .top{
         text-align: center;
@@ -265,6 +265,9 @@ ul:hover{
     .second-section {
         background-color: white;
         height: auto;
+    }
+    .Features{
+        margin-top: 10px;
     }
 
 }
