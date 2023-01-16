@@ -214,8 +214,21 @@ ul:hover{
         margin: 0;
         padding: 0;
     }
+    body{
+        overflow: hidden;
+    }
     .images{
         grid-template-columns: repeat(1, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* width: 620px; */
+        /* height: 620px; */
+        margin-top: 35px;
+        /* margin-left: 85px; */
+        gap: 16px;
+        background-color: aqua;
+        border-radius: 20px;
+        
     }
     .top{
         text-align: center;
